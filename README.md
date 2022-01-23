@@ -17,10 +17,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-clone repo: `git clone https://github.com/netman5/webpack-linters-boilerplates.git`
+clone repo: `git clone https://github.com/netman5/Leaderboard.git`
 
 then
-`cd webpack-linters-boilerplates`
+`cd Leaderboard`
 
 ### Install
 
