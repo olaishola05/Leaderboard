@@ -6,6 +6,32 @@
     <title>Leaderboard | Application</title>
   </head>
   <body>
-    <h1>Leaderboard App</h1>
+    <main>
+      <h1>Leaderboard App</h1>
+      <section>
+        <div class="recent-score">
+          <div class="recent-top">
+            <h3>Recent scores</h3>
+            <button type="button" class="btn refresh">refresh</button>
+          </div>
+          <div class="score-container">
+            <ul class="score"></ul>
+          </div>
+        </div>
+
+        <!-- Add new score -->
+        <form action="">
+          <label for="name">
+            <input type="text" name="name" id="name" placeholder="Your name" />
+          </label>
+
+          <label for="score">
+            <input type="text" name="score" id="score" placeholder="Your score" />
+          </label>
+
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
