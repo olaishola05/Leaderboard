@@ -48,16 +48,19 @@ main {
 
 h1 {
   margin-bottom: 60px;
+  padding-left: 20px;
 }
 
 section {
   display: flex;
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .form-section,
 .recent-score {
   flex: 1;
-  border: 1px solid red;
   padding: 20px;
   margin: 0 20px 0 20px;
 }
@@ -66,18 +69,9 @@ section {
   display: flex;
   align-items: center;
 }
-/* 
-.btn {
-  width: 80px;
-  padding: 5px;
-  text-transform: capitalize;
-  background-color: #fff;
-  color: #111;
-  cursor: pointer;
-} */
 
 h3 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 15px;
 }
@@ -89,6 +83,20 @@ h3 {
 
 .message {
   display: none;
+}
+
+.score {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+li {
+  padding: 6px;
+}
+
+li:nth-child(2n) {
+  background-color: #dddddd;
 }
 
 .form-section {
