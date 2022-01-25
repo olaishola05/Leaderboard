@@ -1,8 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Wepback-linters-boilerplate
+# Leaderboard App
 
-A starter boilerplate for projects in webpack and linters configs
+![book lists](./asset/resource/leaderboard.png)
+
+A leaderboard website that displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
 ## Built With
 

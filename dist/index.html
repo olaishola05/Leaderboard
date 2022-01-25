@@ -3,11 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wbpack Exercise</title>
+    <title>Leaderboard | Application</title>
   <script defer src="main.bundle.js"></script></head>
   <body>
-    <h1>Hello webpack!</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, quaerat nulla. Non deleniti sunt ipsum similique accusantium repudiandae pariatur rem.</p>
-    <h2>Testing webpack</h2>
+    <main>
+      <h1>Leaderboard App</h1>
+      <section>
+        <div class="recent-score">
+          <div class="recent-top">
+            <h3>Recent scores</h3>
+            <button type="button" class="btn refresh">refresh</button>
+          </div>
+          <span class="message">message if no scores</span>
+          <div class="score-container">
+            <ul class="score"></ul>
+          </div>
+        </div>
+
+        <!-- Add new score -->
+        <div class="form-section">
+          <h3>Add your score</h3>
+          <form>
+            <label for="name">
+              <input type="text" name="name" id="name" placeholder="Your name" />
+            </label>
+
+            <label for="score">
+              <input type="text" name="score" id="score" placeholder="Your score" />
+            </label>
+
+            <button type="submit" class="btn submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
