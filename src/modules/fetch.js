@@ -1,23 +1,25 @@
 import axios from 'axios';
 
 const getGameResults = async (url) => {
+  let result = '';
   try {
-    const result = await axios.get(`${url}`);
-    const Data = result.data;
-    console.log(Data);
+    const response = await axios.get(`${url}`);
+    result = response.data;
+    console.log(result);
   } catch (error) {
     console.log(error);
   }
+  return result;
 };
 
 const addNewScore = async (url, score) => {
+  let postData = '';
   try {
     const response = await axios.post(`${url}`, score);
-    const postData = response.data;
-    console.log(postData);
-    return postData;
+    postData = response.data;
   } catch (errors) {
     console.log(errors);
   }
+  return postData;
 };
 export { getGameResults, addNewScore };
