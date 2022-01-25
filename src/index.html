@@ -14,7 +14,7 @@
             <h3>Recent scores</h3>
             <button type="button" class="btn refresh">refresh</button>
           </div>
-          <span class="message">message if no scores</span>
+          <span class="message">No recent scores, add new game scores to the board</span>
           <div class="score-container">
             <ul class="score"></ul>
           </div>
@@ -25,11 +25,11 @@
           <h3>Add your score</h3>
           <form>
             <label for="name">
-              <input type="text" name="name" id="name" placeholder="Your name" />
+              <input type="text" name="name" id="name" placeholder="Your name" required />
             </label>
 
             <label for="score">
-              <input type="text" name="score" id="score" placeholder="Your score" />
+              <input type="text" name="score" id="score" placeholder="Your score" required />
             </label>
 
             <button type="submit" class="btn submit">Submit</button>

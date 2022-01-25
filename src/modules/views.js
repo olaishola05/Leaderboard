@@ -2,8 +2,7 @@ const showResults = (arr) => {
   let show = '';
   const msg = document.querySelector('.message');
   if (arr.length <= 0) {
-    msg.style.display = 'flex';
-    msg.textContent = 'Add new score to leaderboard';
+    show = `<li class='msg'>${msg.textContent}</li>`;
     return show;
   }
 
