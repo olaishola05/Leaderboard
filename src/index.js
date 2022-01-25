@@ -16,7 +16,7 @@ refreshBtn.addEventListener('click', () => {
 
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
-  postScore(addNewScore);
+  postScore(BASE_URL, addNewScore);
   form.reset();
 });
 
