@@ -6,8 +6,9 @@ const showResults = (arr) => {
     return show;
   }
 
+  arr = arr.sort((x, y) => y.score - x.score);
   arr.forEach((result) => {
-    show += `<li>${result.name}: <span>${result.score}</span></li>`;
+    show += `<li>${result.user}: <span>${result.score}</span></li>`;
   });
 
   return show;

@@ -1,4 +1,4 @@
-const postScore = async (url, callback) => {
+const postScore = async (url, addNewScore) => {
   const user = document.querySelector('#name').value;
   const score = Number(document.querySelector('#score').value);
   const newScore = {
@@ -6,7 +6,7 @@ const postScore = async (url, callback) => {
     score,
   };
 
-  await callback(url, newScore);
+  await addNewScore(url, newScore);
 };
 
 export default postScore;
