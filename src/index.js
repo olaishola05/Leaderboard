@@ -6,7 +6,7 @@ import postScore from './modules/posts.js';
 const listContainer = document.querySelector('.score');
 const refreshBtn = document.querySelector('.refresh');
 const form = document.querySelector('form');
-const API_KEY = 'USpt8mJC28TGhoqQtIJg';
+const API_KEY = 'sKtlipnSk3y2onjleQXw';
 const BASE_URL = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${API_KEY}/scores/`;
 
 const toastMsg = async () => {
