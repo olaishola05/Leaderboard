@@ -46,6 +46,10 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
+## Issues
+
+Link to issues: [issues](https://github.com/netman5/Leaderboard/issues)
+
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
