@@ -5,9 +5,8 @@ const getGameResults = async (url) => {
   try {
     const response = await axios.get(`${url}`);
     result = response.data;
-    console.log(result);
   } catch (error) {
-    console.log(error);
+    throw error.message;
   }
   return result;
 };
@@ -18,7 +17,7 @@ const addNewScore = async (url, score) => {
     const response = await axios.post(`${url}`, score);
     postData = response.data;
   } catch (errors) {
-    console.log(errors);
+    throw errors.message;
   }
   return postData;
 };
