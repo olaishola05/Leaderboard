@@ -101,7 +101,7 @@ h3 {
   border: 1px solid black;
   padding: 10px;
   border-radius: 2px;
-  max-height: 400px;
+  max-height: 360px;
   overflow-x: auto;
 }
 
@@ -124,7 +124,8 @@ form {
   width: 70%;
 }
 
-input[type='text'] {
+input[type='text'],
+input[type='number'] {
   width: 100%;
   padding: 7px;
   border: 1px solid black;
@@ -185,6 +186,17 @@ input[type='text'] {
 
 .button-56:hover {
   outline: 0;
+}
+
+footer {
+  padding: 5px 15px;
+  margin: 0 15px;
+  position: sticky;
+}
+
+footer .heart {
+  color: red;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 768px) {
